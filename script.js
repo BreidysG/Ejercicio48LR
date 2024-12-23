@@ -12,6 +12,8 @@ function startExercise() {
     document.getElementById('startButton').style.display = 'none';
     document.getElementById('containerInputButton').style.display = 'none';
     document.getElementById("settings").style.display = "none";
+    document.getElementById("title").classList.add("hidden");
+    document.getElementById("instruction").classList.add("hidden");
     // Mostrar el triángulo
     document.getElementById('triangleContainer').classList.remove('hidden');
     
